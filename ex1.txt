@@ -1,0 +1,30 @@
+Exercise 1:
+Write a pseudocode and implement a program in C to swap the first and last digits
+of a positive integer.
+
+- Define an integer number: n = 123
+- Using Logarithm
+    + int digit = log10(n) // log10(123) = 2
+
+- Define a place holder for digit
+    + divide = digit*100/digit // 2*100/2 = 100
+
+- Take the first digit
+    + int fd =  n/divide // 123/100 = 1
+    
+- Get the remainder of number
+    + n = n%100 // 123%100 = 23
+
+
+- Get the last number:
+    + int ld = n%10 //  123%10 = 3
+- Get remainder
+    + n = n/10  // 23/10 = 2
+
+- Swapping:
+    swap =  ld *divide + n*10 + df
+            // = 3 * 100 + 20  + 1
+            //= 321
+
+return swap;
+

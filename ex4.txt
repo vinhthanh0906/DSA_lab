@@ -1,0 +1,19 @@
+Exercise 4:
+Write a pseudo-code by commenting in the file then implement a program in to
+enter a natural number n and verify whether n is sphenic. Calculate the complexity
+of your program.
+Note: A sphenic number is a product of p*q*r where p, q, and r are three distinct
+prime numbers. Example: 30 = 2 * 3* 5; 42 = 2*3*7; 66 = 2*3*11
+
+
+Solve:
+- Input the number n = 42;
+- Run a for loop from 1 to n:
+    + If n divisible for i, print i
+- Prime elements of product check
+    + count = 0
+    + if i%1 and i%i => count +=1 (count = 2 -> prime)
+=> prime number = [2,3,7]
+- Take three min value in the list 
+=> 2,3,7 (1 is not prime number)
+    
